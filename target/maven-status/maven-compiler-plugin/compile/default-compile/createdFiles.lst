@@ -1,0 +1,16 @@
+ru/kata/spring/boot_security/demo/controllers/ProfileController.class
+ru/kata/spring/boot_security/demo/configs/WebSecurityConfig.class
+ru/kata/spring/boot_security/demo/service/UserService.class
+ru/kata/spring/boot_security/demo/service/RoleService.class
+ru/kata/spring/boot_security/demo/util/UserValidator.class
+ru/kata/spring/boot_security/demo/controllers/AuthController.class
+ru/kata/spring/boot_security/demo/controllers/AdminController.class
+ru/kata/spring/boot_security/demo/configs/MvcConfig.class
+ru/kata/spring/boot_security/demo/SpringBootSecurityDemoApplication.class
+ru/kata/spring/boot_security/demo/controllers/MainController.class
+ru/kata/spring/boot_security/demo/configs/SuccessUserHandler.class
+ru/kata/spring/boot_security/demo/model/Role.class
+ru/kata/spring/boot_security/demo/service/RegistrationService.class
+ru/kata/spring/boot_security/demo/repository/RoleRepository.class
+ru/kata/spring/boot_security/demo/model/User.class
+ru/kata/spring/boot_security/demo/repository/UserRepository.class
