@@ -51,14 +51,13 @@ public class UserService implements UserDetailsService {
         return userRepository.findUserByEmail(name);
     }
     @Transactional
-    public boolean save(User user){
-        userRepository.save(user);
-        return true;
+    public User save(User user){
+        return userRepository.save(user);
     }
     @Transactional
-    public void update(int id, User updatedUser){
+    public User update(int id, User updatedUser){
         updatedUser.setId(id);
-        userRepository.save(updatedUser);
+        return userRepository.save(updatedUser);
     }
     @Transactional
     public void deleteById(int id){

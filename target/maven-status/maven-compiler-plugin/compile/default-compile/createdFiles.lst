@@ -8,9 +8,13 @@ ru/kata/spring/boot_security/demo/controllers/AdminController.class
 ru/kata/spring/boot_security/demo/configs/MvcConfig.class
 ru/kata/spring/boot_security/demo/SpringBootSecurityDemoApplication.class
 ru/kata/spring/boot_security/demo/controllers/MainController.class
+ru/kata/spring/boot_security/demo/exception_handling/UserGlobalExceptionHandler.class
+ru/kata/spring/boot_security/demo/controllers/RESTController.class
 ru/kata/spring/boot_security/demo/configs/SuccessUserHandler.class
 ru/kata/spring/boot_security/demo/model/Role.class
 ru/kata/spring/boot_security/demo/service/RegistrationService.class
 ru/kata/spring/boot_security/demo/repository/RoleRepository.class
 ru/kata/spring/boot_security/demo/model/User.class
 ru/kata/spring/boot_security/demo/repository/UserRepository.class
+ru/kata/spring/boot_security/demo/exception_handling/UserNotFoundException.class
+ru/kata/spring/boot_security/demo/exception_handling/UserIncorrectData.class
