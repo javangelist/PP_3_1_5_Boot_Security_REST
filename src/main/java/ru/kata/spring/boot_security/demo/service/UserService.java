@@ -22,12 +22,10 @@ import java.util.Optional;
 public class UserService implements UserDetailsService {
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
-//    private final PasswordEncoder passwordEncoder;
     @Autowired
-    public UserService(UserRepository userRepository, RoleRepository roleRepository, /*PasswordEncoder passwordEncoder,*/ UserValidator userValidator) {
+    public UserService(UserRepository userRepository, RoleRepository roleRepository) {
         this.userRepository = userRepository;
-        this.roleRepository = roleRepository;
-//        this.passwordEncoder = passwordEncoder;
+        this.roleRepository = roleRepository;;
     }
 
     @Override
